@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "494357648152",
+    "firebase_url": "https://nextdoorapp2-9cbc0.firebaseio.com",
+    "project_id": "nextdoorapp2-9cbc0",
+    "storage_bucket": "nextdoorapp2-9cbc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494357648152:android:ff706e7e2ba1c896",
+        "android_client_info": {
+          "package_name": "com.example.nextdoorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494357648152-8n70ag5a9s2vb56g8onb7muqb6aqjjce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nextdoorapp",
+            "certificate_hash": "82f3166ac309528d70bc995ae69bcc2089b3e9e5"
+          }
+        },
+        {
+          "client_id": "494357648152-ip0bmiqppco5j8m1t9hpktvogb0k0ddo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE491hA_j2I8aFs_j8k8vpFVNS5R0nv7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494357648152-ip0bmiqppco5j8m1t9hpktvogb0k0ddo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NextdoorApp</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="header_text">"              We make our friends, we make our enimies
+                     but god makes our nextdoor neighbors"</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/graphical_background"
+    tools:context=".SetUpActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="292dp"
+        android:layout_height="173dp"
+        android:id="@+id/profile_image_id"
+        android:src="@drawable/profile"
+        android:layout_marginLeft="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text"
+        />
+
+
+    <EditText
+        android:id="@+id/username_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/enter_email_box"
+        android:drawableLeft="@drawable/username"
+        android:hint="enter your name"
+        android:textColor="#0A0A0A"
+        android:padding="10dp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/fullname_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/enter_password_box"
+        android:drawableLeft="@drawable/password"
+        android:padding="10dp"
+        android:hint="enter your full name"
+        android:textColor="#0A0A0A"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/adress_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/enter_password_box"
+        android:drawableLeft="@drawable/area_icon"
+        android:padding="10dp"
+        android:hint="enter your adress"
+        android:textColor="#0A0A0A"
+        android:inputType="text"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:id="@+id/save_button_id"
+        android:background="@drawable/account_create_box"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>

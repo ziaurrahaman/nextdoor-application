@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/graphical_background"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="292dp"
+        android:layout_height="173dp"
+        android:src="@drawable/logo2_edited"
+        android:layout_marginLeft="35dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text"/>
+
+
+    <EditText
+        android:id="@+id/enter_email_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/enter_email_box"
+        android:drawableLeft="@drawable/email"
+        android:hint="email"
+        android:textColor="#0A0A0A"
+        android:padding="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/enter_password_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/enter_password_box"
+        android:drawableLeft="@drawable/password"
+        android:padding="10dp"
+        android:hint="password"
+        android:textColor="#0A0A0A"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/conform_password_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/enter_password_box"
+        android:drawableLeft="@drawable/password"
+        android:padding="10dp"
+        android:hint="conform password"
+        android:textColor="#0A0A0A"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/areaname_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/enter_password_box"
+        android:hint="enter your area name
+your area must be Rajarbag"
+        android:padding="10dp"
+        android:textColor="#0A0A0A"
+        android:drawableLeft="@drawable/area_icon"
+        android:inputType="text"/>
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:id="@+id/creat_account_button_id"
+        android:background="@drawable/account_create_box"
+        android:text="Create An account"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>
