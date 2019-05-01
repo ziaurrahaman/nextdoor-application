@@ -44,8 +44,13 @@ public class SignUpActivity extends AppCompatActivity {
                 String emailForValidation = email.getText().toString();
                 isEmailValid(emailForValidation);
                 isPasswordValid( password);
-                isAreaValid(area_name);
-                creteFirebaseUser();
+//                isAreaValid(area_name);
+//                creteFirebaseUser();
+                if(isAreaValid(area_name)==true){
+                    creteFirebaseUser();
+                }else {
+                    Toast.makeText(getApplicationContext(),"You can not  open an account ",Toast.LENGTH_SHORT).show();
+                }
         }
         });
         mAuth = FirebaseAuth.getInstance();
@@ -101,13 +106,15 @@ public class SignUpActivity extends AppCompatActivity {
 
     }
 
-    private void isAreaValid(EditText area_name) {
+    private boolean isAreaValid(EditText area_name) {
         String area_nameInMethod = area_name.getText().toString();
         String ourSelectedAreaName = "Rajarbag";
         if(TextUtils.equals(area_nameInMethod,ourSelectedAreaName)){
 
+            return true;
         }else {
-            Toast.makeText(getApplicationContext(),"You can not  open an account ",Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(getApplicationContext(),"You can not  open an account ",Toast.LENGTH_SHORT).show();
+            return false;
         }
     }
 
